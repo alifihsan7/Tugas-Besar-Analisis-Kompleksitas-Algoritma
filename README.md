@@ -1,1 +1,3 @@
 # Tugas-Besar-Analisis-Kompleksitas-Algoritma
+
+Pada banyak aplikasi komputasi, seperti pemodelan sistem dinamis, kriptografi, dan analisis graf, pemangkatan matriks persegi menjadi hal yang sering dilakukan. Dalam konteks ini, kita perlu menganalisis efisiensi dua pendekatan utama dalam mengimplementasikan algoritma perpangkatan matriks, yaitu pendekatan iteratif dan rekursif. Masalah yang dihadapi adalah bagaimana cara membandingkan waktu eksekusi (running time) dan kompleksitas kedua algoritma ini, serta dalam kondisi apa salah satu dari algoritma tersebut lebih efisien daripada yang lainnya.
