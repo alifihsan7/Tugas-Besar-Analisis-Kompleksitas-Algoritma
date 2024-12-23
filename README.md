@@ -4,7 +4,8 @@ JUDUL :              ANALISIS EFISIENSI ALGORITMA PERPANGKATAN MATRIKS PERSEGI D
 
 KELOMPOK :           2 Pemuda yang sedang Nugas
 
-ANGGOTA KELOMPOK :   103012300446 - ARIF RAHMATIANA
-                     103012330079 - ALIF IHSAN 
+ANGGOTA KELOMPOK :   103012330079 - ALIF IHSAN
+                      103012300446 - ARIF RAHMATIANA
+                     
 
 Pada banyak aplikasi komputasi, seperti pemodelan sistem dinamis, kriptografi, dan analisis graf, pemangkatan matriks persegi menjadi hal yang sering dilakukan. Dalam konteks ini, kita perlu menganalisis efisiensi dua pendekatan utama dalam mengimplementasikan algoritma perpangkatan matriks, yaitu pendekatan iteratif dan rekursif. Masalah yang dihadapi adalah bagaimana cara membandingkan waktu eksekusi (running time) dan kompleksitas kedua algoritma ini, serta dalam kondisi apa salah satu dari algoritma tersebut lebih efisien daripada yang lainnya.
