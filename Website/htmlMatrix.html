@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Power Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Matrix Power Calculator</h1>
+
+        <label for="size">Enter matrix size (N x N):</label>
+        <input type="number" id="size" min="1" placeholder="Enter N" required>
+
+        <div id="matrix-input"></div>
+
+        <label for="power">Enter power (exp):</label>
+        <input type="number" id="power" min="0" required>
+
+        <label for="method">Choose method:</label>
+        <select id="method">
+            <option value="iterative">Iterative</option>
+            <option value="recursive">Recursive</option>
+        </select>
+
+        <button onclick="calculateMatrixPower()">Calculate</button>
+
+        <div id="result">
+            <h2>Result:</h2>
+            <pre id="output"></pre>
+        </div>
+
+        <p id="complexity"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
