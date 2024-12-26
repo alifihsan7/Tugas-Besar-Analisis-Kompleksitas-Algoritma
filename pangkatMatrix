@@ -82,6 +82,8 @@ void printMatrix(const matrix& m) {
 }
 
 int main() {
+    auto start = std::chrono::high_resolution_clock::now();
+
     cout << "Masukkan ukuran matrix N*N : ";
     cin >> N;
     matrix A(N, vector<ll>(N)), hasil(N, vector<ll>(N));
@@ -115,9 +117,13 @@ int main() {
     cout << endl;
     cout << "Matriks A^" << pangkat << ": " << endl;
     printMatrix(hasil);
-
     cout << endl;
-    cout << "Kompleksitas: " << N * N * N * log(pangkat) << endl;
+
+    auto end = std::chrono::high_resolution_clock::now();
+
+    std::chrono::duration<double> duration = end - start;
+
+    std::cout << "Waktu eksekusi: " << duration.count() << " detik" << std::endl;
 
     return 0;
 }
